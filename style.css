@@ -1,0 +1,116 @@
+html {
+	min-height: 100%;
+    }
+
+body {
+    background: #464646; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#000000, #464646); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000000, #464646); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000000, #464646); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000000, #464646); /* Standard syntax (must be last) */
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    height: 718px;
+    width: 600px;
+    background-color: #5a7775;
+    margin: 150px auto;
+}
+
+#calculation {    
+    width: 100%;
+    background-color: #bcd5d4;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+#calculation p {
+    color: #393939;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 25px;
+    line-height: 50px;
+}
+
+#answer {
+    width: 100%;
+    background-color: #bcd5d4;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#answer p {
+    color: #393939;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 25px;
+    line-height: 100px;
+}
+
+#row1 {
+    margin-top:25px;
+}
+
+#col1 {
+    height: 100px;
+    width: 24%;
+    background-color: #3f615f;
+    margin-right: 7.7px;    
+    margin-bottom: 2px;
+    float: left;
+}
+
+#col1 p {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+#col2 {
+    height: 100px;
+    width: 24%;
+    background-color: #3f615f;
+    margin-right: 7.7px;    
+    margin-bottom: 2px;
+    float: left;
+}
+
+#col2 p {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+#col3 {
+    height: 100px;
+    width: 24%;
+    background-color: #3f615f;
+    margin-right: 7.7px;    
+    margin-bottom: 2px;
+    float: left;
+}
+
+#col3 p {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 35px;
+    line-height: 30px;
+}
+
+#col4 {
+    height: 100px;
+    width: 24%;
+    background-color: #3f615f;    
+    margin-bottom: 2px;
+    float: right;
+}
+
+#col4 p {
+    color: #b9b9b9;
+    text-align: center;
+    font-size: 35px;
+    line-height: 30px;
+}
